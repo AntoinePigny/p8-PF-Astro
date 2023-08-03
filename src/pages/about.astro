@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+import ContactCTA from '../components/ContactCTA.astro'
+import Hero from '../components/Hero.astro'
+---
+
+<BaseLayout title='A propos | Antoine Pigny' description="A propos d' Antoine Pigny">
+   <div class='stack gap-20'>
+      <main class='wrapper about'>
+         <Hero
+            title='A Propos'
+            tagline='De quoi en apprendre un peu plus sur moi, si un peu de lecture ne vous fait pas peur'
+         />
+
+         <section>
+            <h2 class='section-title'>Background</h2>
+            <div class='content'>
+               <p>
+                  Bonjour ! Je m'appelle Antoine, et j'aime créer des projets et en apprendre toujours plus sur le
+                  développement sur internet. Mon parcours a commencé en 2023, avec un prologue en 2017. Travaillant
+                  auparavant dans le milieu de l'audiovisuel et du spectacle, j'avais poursuivi une première formation
+                  orientée PHP. Mais mon métier de comédien et scénariste me donnait encore pas mal d'activité à
+                  l'époque.
+               </p>
+               <br />
+               <p>
+                  Puis l'année 2020 est arrivée, et s'en est suivie une période de remise en question jusqu'à ce qu'en
+                  2022, j'entame une formation diplomante auprès d'Openclassrooms pour enfin approfondir le sujet et me
+                  lancer vraiment dans le monde du développement ! J'ai donc pu me forger une base solide sur JS,
+                  NodeJS, React à travers mes projets d'apprentissage. J' apprends toujours plus et j'explore aussi
+                  d'autres technologies intéressantes (Nuxt & Vue, Svelte, Supabase entre autres) dans des projets
+                  persos, le tout dans l'optique de créer des outils agréables à utiliser, avec du code facile à
+                  comprendre et durable.
+               </p>
+            </div>
+         </section>
+         <section>
+            <h2 class='section-title'>Diplômes</h2>
+            <div class='content'>
+               <p>Bac+2 Développeur Web (via OpenClassrooms)</p>
+            </div>
+         </section>
+         <section>
+            <h2 class='section-title'>Compétences</h2>
+            <div class='content'>
+               <p>Transverses : Travail d'équipe, Curieux, Autonome, Force de proposition, A l'écoute, Méticuleux</p>
+               <p>Métier : Html, CSS, Sass, JS, React(& React Router), NodeJS, Express, MongoDB</p>
+            </div>
+         </section>
+      </main>
+
+      <ContactCTA />
+   </div>
+</BaseLayout>
+
+<style>
+   .about {
+      display: flex;
+      flex-direction: column;
+      gap: 3.5rem;
+   }
+
+   img {
+      margin-top: 1.5rem;
+      border-radius: 1.5rem;
+      box-shadow: var(--shadow-md);
+   }
+
+   section {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      color: var(--gray-200);
+   }
+
+   .section-title {
+      grid-column-start: 1;
+      font-size: var(--text-xl);
+      color: var(--gray-0);
+   }
+
+   .content {
+      grid-column: 2 / 4;
+   }
+
+   .content :global(a) {
+      text-decoration: 1px solid underline transparent;
+      text-underline-offset: 0.25em;
+      transition: text-decoration-color var(--theme-transition);
+   }
+
+   .content :global(a:hover),
+   .content :global(a:focus) {
+      text-decoration-color: currentColor;
+   }
+
+   @media (min-width: 50em) {
+      .about {
+         display: grid;
+         grid-template-columns: 1fr 60% 1fr;
+      }
+
+      .about > :global(:first-child) {
+         grid-column-start: 2;
+      }
+
+      section {
+         display: contents;
+         font-size: var(--text-lg);
+      }
+   }
+</style>
