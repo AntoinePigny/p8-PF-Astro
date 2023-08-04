@@ -31,6 +31,6 @@ Tout ce projet m'a donnée une vue d'ensemble de l'élaboration d'un back-end si
 
 ### Code & Screenshots
 
-<a href="https://github.com/AntoinePigny/OC-Projet7-MonVieuxGrimoire-Backend">Le Code</a>
+<a target="_blank" href="https://github.com/AntoinePigny/OC-Projet7-MonVieuxGrimoire-Backend">Le Code</a>
 
 ![Page produit Kasa](/assets/projects/mvg-auth.webp 'Kasa Location')

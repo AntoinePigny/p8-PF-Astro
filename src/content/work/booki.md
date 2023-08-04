@@ -22,4 +22,4 @@ La maitrise de grid/flexbox et la familiarisation avec les media queries et les 
 
 ### Code & Screenshots
 
-<a href="https://github.com/AntoinePigny/OC-Projet2-Booki">Le Code</a>
+<a target="_blank" href="https://github.com/AntoinePigny/OC-Projet2-Booki">Le Code</a>

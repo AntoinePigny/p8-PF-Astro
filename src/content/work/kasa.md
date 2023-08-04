@@ -24,7 +24,7 @@ Au final, ce projet m'a permis de comprendre la logique structurelle d'un enviro
 
 ### Code & Screenshots
 
-<a href="https://github.com/AntoinePigny/OC-Projet6-KasaReact">Le Code</a>
+<a target="_blank" href="https://github.com/AntoinePigny/OC-Projet6-KasaReact">Le Code</a>
 
 ![Page produit Kasa](/assets/projects/kasa-product.webp 'Kasa Location')
 
