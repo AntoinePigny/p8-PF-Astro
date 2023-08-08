@@ -1,4 +1,4 @@
-# Astro Starter Kit: Portfolio
+# Portfolio via Template Astro Starter Kit
 
 ```
 npm create astro@latest -- --template portfolio
@@ -9,8 +9,6 @@ npm create astro@latest -- --template portfolio
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
 
 ## 🧞 Commands
 
