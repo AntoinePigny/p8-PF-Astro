@@ -4,7 +4,7 @@ publishDate: 2023-02-30 00:00:00
 img: /assets/projects/booki-home.webp
 img_alt: La page d'accueil du projet Booki
 description: |
-   Intégrer en Html et Css une maquette de site de r2servation de locations de vacances
+   Intégrer en Html et Css une maquette de site de réservation de locations de vacances
 tags:
    - Html
    - CSS
