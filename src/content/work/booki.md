@@ -20,6 +20,6 @@ Le coeur du projet a été d'apprendre les bases du Html sémantique et du CSS, 
 
 La maitrise de grid/flexbox et la familiarisation avec les media queries et les différents selecteurs CSS ont été les principales compétences développées dans ce projet, ainsi que l'exploitation méthodique et complète d'une maquête Figma.
 
-### Code & Screenshots
+### Code
 
 <a target="_blank" href="https://github.com/AntoinePigny/OC-Projet2-Booki">Le Code</a>
