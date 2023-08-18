@@ -19,7 +19,7 @@ Ici, il a fallu, à partir d'un front-end livré (React), créer le back d'un si
 -  Base de données MongoDB
 -  Environnement Node
 -  API express
--  Sauvegarde des images sur disque dur, après redimenssionnement pour respecter les pratiques de Green Code (Sharp)
+-  Sauvegarde des images sur disque dur, après redimensionnement pour respecter les pratiques de Green Code (Sharp)
 
 L'application devait permettre une authentification utilisateur et afficher un contenu dynamique, soumis à un JWT stocké en en-tête de requête.
 
