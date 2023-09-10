@@ -24,11 +24,19 @@ const projects = (await getCollection('work'))
    <div class='stack gap-20 lg:gap-48'>
       <div class='wrapper stack gap-8 lg:gap-20'>
          <header class='hero'>
-            <Hero
-               title="Bonjour, je m'appelle Antoine Pigny"
-               tagline='Je suis un développeur spécialisé en React & NodeJS'
-               align='start'
-            />
+            <div class='wrapper'>
+               <Hero
+                  title="Bonjour, je m'appelle Antoine Pigny"
+                  tagline='Je suis un développeur spécialisé en React & NodeJS'
+                  align='start'
+               />
+               <div class='cta about-me'>
+                  <CallToAction href='/about/'>
+                     En savoir plus sur moi
+                     <Icon icon='arrow-right' size='1.2em' />
+                  </CallToAction>
+               </div>
+            </div>
 
             <img alt='Antoine Pigny N&B' width='480' height='620' src='/assets/portrait.jpg' />
          </header>
@@ -88,6 +96,10 @@ const projects = (await getCollection('work'))
       box-shadow: var(--shadow-md);
    }
 
+   .about-me {
+      margin-top: 1.5rem;
+   }
+
    @media (min-width: 50em) {
       .hero {
          display: grid;
@@ -106,6 +118,10 @@ const projects = (await getCollection('work'))
          aspect-ratio: 3 / 4;
          border-radius: 4.5rem;
          object-fit: cover;
+      }
+
+      .about-me {
+         max-width: fit-content;
       }
    }
 
